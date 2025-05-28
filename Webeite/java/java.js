@@ -1,0 +1,1 @@
+document.writeln("<p id='note'> Java Script geht hier!</p>")

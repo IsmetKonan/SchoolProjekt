@@ -1,5 +1,5 @@
 body {
-    background-color: ga;
+    background-color: gray;
 } 
 
 #title {
@@ -16,21 +16,15 @@ body {
     font-size: 0.5cm;
 }
 
-.hauptmenu {
-    background-color: grey;
-    border-radius: 0.1cm;
-    border-color: whitesmoke;
-    border: solid;
-}
 
 li {
-    margin-top: 0.1cm;
-    margin-left: 0.8cm;
     margin-bottom: 0.2cm;
 }
 
 #link {
     color: orange;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 #link:hover {
@@ -68,4 +62,21 @@ li {
 
 #pctypenh {
     text-decoration-line: underline;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(58, 58, 58);
+    width: 3cm;
+    float: left;
+    height: 1cm;
+}
+
+#note {
+    display: none;
+}
+
+.hauptmenu {
+    background-color: rgb(58, 58, 58);
+    margin: auto;
 }
